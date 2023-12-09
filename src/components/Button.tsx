@@ -30,7 +30,7 @@ const buttonVariants = cva(
         ghost: "bg-transparent data-[state=open]:bg-transparent",
         ghostInfo:
           "bg-transparent data-[state=open]:bg-transparent text-blue-500 dark:text-blue-400",
-        link: "bg-transparent underline-offset-4 hover:underline text-slate-900 hover:bg-transparent",
+        link: "bg-transparent rounded-full text-blue-500 hover:bg-blue-50",
         disabled: "bg-slate-200 text-slate-400",
       },
 
